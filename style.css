@@ -2,7 +2,7 @@ body {
     font-family: Arial;
     text-align: center;
     margin-top: 60px;
-    background-color: rgb(211, 248, 246);
+    background:url('img/fundo.jpg') no-repeat center fixed;
 }
 input, button {
     padding: 10px; 
@@ -14,4 +14,9 @@ button{
 }
 button:hover{
     background-color: black;
+}
+#feedback{
+    background-color: rgb(255, 255, 255);
+    width: auto%;
+    height: 20px;
 }
