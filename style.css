@@ -16,7 +16,14 @@ button:hover{
     background-color: black;
 }
 #feedback{
-    background-color: rgb(255, 255, 255);
-    width: auto%;
-    height: 20px;
-}
+    background-color: rgba(44, 139, 139, 0.9); /* Fundo teal semi-transparente */
+  color: white;                             /* Texto branco para contraste */
+  padding: 10px 20px;                      /* Espaçamento interno */
+  border-radius: 5px;                      /* Bordas arredondadas */
+  display: inline-block;                   /* Ajusta largura ao conteúdo */
+  margin-top: 20px;                        /* Espaço acima do feedback */
+  font-weight: bold;                       /* Texto em negrito */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3); /* Sombra para destaque */
+
+
+}   
