@@ -2,8 +2,16 @@ body {
     font-family: Arial;
     text-align: center;
     margin-top: 60px;
+    background-color: rgb(211, 248, 246);
 }
 input, button {
     padding: 10px; 
     font-size: 18px;
+}
+button{
+    background-color: rgb(44, 139, 139);
+    color: aliceblue;
+}
+button:hover{
+    background-color: black;
 }
