@@ -2,27 +2,40 @@ body {
     font-family: Arial;
     text-align: center;
     margin-top: 60px;
-    background:url('img/fundo.jpg') no-repeat center fixed;
+    background: url('img/fundo.jpg') no-repeat center fixed;
+    background-size: cover;
+}
+#container{
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    max-width: 400px;
+    margin: auto;
 }
 input, button {
     padding: 10px; 
     font-size: 18px;
 }
-button{
+
+button {
     background-color: rgb(44, 139, 139);
     color: aliceblue;
     margin-top: 20px;
+    cursor: pointer;
 }
-button:hover{
+
+button:hover {
     background-color: black;
 }
-#feedback{
+
+#feedback {
     background-color: rgba(44, 139, 139, 0.9); 
-    color: white;                             
-    padding: 10px 20px;                      
-    border-radius: 5px;                      
-    display: inline-block;                  
-    margin-top: 20px;                       
-    font-weight: bold;                      
-    box-shadow: 0 2px 5px rgba(0,0,0,0.3); 
-}   
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+    font-weight: bold;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
