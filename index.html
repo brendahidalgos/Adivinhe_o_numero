@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Jogo de Adivinhação</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
   </head>
   <body>
     <h2>Jogo de Adivinhação</h2>
@@ -13,23 +14,5 @@
     <button onclick="verificarPalpite()">Verificar</button>
     <br>
     <p id="feedback" style="display:none"></p>
-
-    <script>
-      
-      const segredo = Math.floor(Math.random() * 100) + 1;
-      function verificarPalpite() {
-        const palpite = parseInt(document.getElementById('palpite').value);
-        let feedback = '';
-        if (palpite === segredo) {
-          feedback = 'Parabéns! Você acertou!';
-        } else if (palpite > segredo) {
-          feedback = 'Tente um número menor.';
-        } else {
-          feedback = 'Tente um número maior.';
-        }
-        document.getElementById('feedback').style.display = 'inline-block';
-        document.getElementById('feedback').textContent = feedback;
-      }
-    </script>
   </body>
 </html>
