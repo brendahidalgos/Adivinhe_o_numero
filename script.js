@@ -11,7 +11,7 @@ function verificarPalpite() {
     tentativas++;
 
     if (palpite === segredo) {
-        feedback = '🎉 Parabéns! Você acertou!';
+        feedback = ' Parabéns! Você acertou!';
         acertou = true;
     } else if (palpite > segredo) {
         feedback = 'Tente um número menor.';
