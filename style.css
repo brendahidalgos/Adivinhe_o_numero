@@ -1,8 +1,8 @@
 body { 
+    background-image: url('img/imagem2.jpg');
     font-family: Arial;
     text-align: center;
-    margin-top: 60px;
-    
+    margin-top: 60px;    
 }
 .fundo{
     position: fixed;
