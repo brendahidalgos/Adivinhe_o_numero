@@ -3,6 +3,7 @@ body {
     font-family: Arial;
     text-align: center;
     margin-top: 60px;    
+    background-repeat: no-repeat;
 }
 .fundo{
     position: fixed;
@@ -12,6 +13,7 @@ body {
     height: 100%;
     z-index: -1;
     background-size: cover;
+    background-repeat: no-repeat;
 }
 .container {
     max-width: 600px;
