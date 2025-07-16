@@ -4,15 +4,15 @@ body {
 }
 .fundo {
     background-image: url('img/imagem2.jpg');
-    background-size: cover; /* Mantém proporção e cobre todo o fundo */
+    background-size: cover; 
     background-position: center;
-    height: 100vh; /* Alterado de 95vh para 100vh */
+    height: 100vh; 
     width: 100vw;
     position: fixed;
     top: 0;
     left: 0;
-    z-index: -1; /* Fica atrás do conteúdo */
-    overflow: hidden; /* Garante que nada ultrapasse */
+    z-index: -1; 
+    overflow: hidden; 
 }
 .container {
     max-width: 600px;
